@@ -1,0 +1,42 @@
+.navbar{
+    text-align:left;
+    overflow: hidden;
+    background-color: rgb(255, 43, 198);
+
+
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 231, 255);
+  
+}
+div{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+h5{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+    height: 500px;
+    width: 900px;
+}
+
+footer{
+    text-align: center;
+}
+
+
+

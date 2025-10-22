@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="/contatos.html">CONTATO</a>
+    <a href="/index.html">BLACKPINK</a>
+    <a href="/prc.html">INTEGRANTES</a>
+    
+ </div>
+
+
+
+    <h1>fale cononosco</h1>
+    <form action="">
+        <div class="formulario-campo">
+            <label for="Nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+
+        <div class="formulario-campo">
+            <label for="assunto">Assunto</label>
+            <select name="assunto" id="assunto">
+                <option value="contato">Deixe sua mensagem</option>
+                <option value="nova atividade">Proposta de trabalho</option>
+                <option value="reclamacao">Reclamaçao</option>
+            </select>
+        </div>
+
+        <div class="formulario-campo">
+            <label for="mensagem">Texto</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+        </div>
+
+        <button type="submit" id="enviar-btn">Enviar</button>
+    </form>
+    <script src="/js/script.js"></script>
+</body>
+</html>
