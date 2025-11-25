@@ -1,16 +1,13 @@
-.navbar a {
-  float: left;
-  display: block;
-  color: #e361dd;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-weight: bold;
+.navbar{
+    text-align: left;
+    overflow: hidden;
+    background-color: rgb(255, 43, 198);
+
+
 }
 
-.navbar a:hover {
-  background-color: #7AB8BF;
-  color: #000000;
+.navbar a{
+    color: rgb(0, 0, 0);
 }
 
 body{
